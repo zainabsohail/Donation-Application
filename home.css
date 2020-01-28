@@ -1,0 +1,77 @@
+body {
+  padding-top: 3.5rem;
+}
+.jumbotron {
+  font-family: 'Arvo',courier, serif;
+  padding-bottom: 3rem;
+  background-color: #fff;
+}
+::selection {
+  background-color: #b5e2e7;
+}
+
+::-moz-selection {
+  background-color: #8ac7d8;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+  }
+}
+.navbar-header2{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 10px;
+}
+.jumbotron-heading {
+  font-family: 'Arvo',courier, serif;
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  font-size: 20px;
+  max-width: 40rem;
+}
+.search{
+  padding-top: 10px;
+  padding-left: 20px
+}
+
+.product_section
+{
+    width: 100%;
+    background: #fff;
+    margin-top: 50px;
+    display : inline-block;     
+}
+.product_section h2
+{
+    font-family: 'Arvo',courier, serif;
+}
+.single_product
+{
+    margin-top: 10px;
+    width: 24.5%;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    display: inline-block;
+}
+.single_product img
+{
+    width: 50%;
+    height: 200px;
+}
+.text_center
+{
+    text-align: center;
+}
+footer {
+  background-color: #e74c3c;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
